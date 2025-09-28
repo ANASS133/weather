@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import SearchBar from "./components/SearchBar";
 import WeatherCard from "./components/WeatherCard";
-import Navbar from "./components/Navbar";
+import Navbar from "./components/navbar";
 
 const App = () => {
   const [weatherData, setWeatherData] = useState(null);
